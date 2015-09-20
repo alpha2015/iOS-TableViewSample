@@ -14,6 +14,9 @@
 		DE8FE4851BAC13C0007C9845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8FE4841BAC13C0007C9845 /* Images.xcassets */; };
 		DE8FE4881BAC13C0007C9845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8FE4861BAC13C0007C9845 /* LaunchScreen.xib */; };
 		DE8FE4941BAC13C0007C9845 /* TableViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4931BAC13C0007C9845 /* TableViewSampleTests.m */; };
+		DE8FE49F1BAC33A5007C9845 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE49E1BAC33A5007C9845 /* TableViewController.m */; };
+		DE8FE4A21BAC3899007C9845 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4A11BAC3899007C9845 /* MyTableViewCell.m */; };
+		DE8FE4A51BAE9B81007C9845 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4A41BAE9B81007C9845 /* AppInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		DE8FE48D1BAC13C0007C9845 /* TableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8FE4921BAC13C0007C9845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8FE4931BAC13C0007C9845 /* TableViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewSampleTests.m; sourceTree = "<group>"; };
+		DE8FE49D1BAC33A5007C9845 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DE8FE49E1BAC33A5007C9845 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DE8FE4A01BAC3899007C9845 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		DE8FE4A11BAC3899007C9845 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		DE8FE4A31BAE9B81007C9845 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		DE8FE4A41BAE9B81007C9845 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				DE8FE4841BAC13C0007C9845 /* Images.xcassets */,
 				DE8FE4861BAC13C0007C9845 /* LaunchScreen.xib */,
 				DE8FE4771BAC13C0007C9845 /* Supporting Files */,
+				DE8FE49D1BAC33A5007C9845 /* TableViewController.h */,
+				DE8FE49E1BAC33A5007C9845 /* TableViewController.m */,
+				DE8FE4A01BAC3899007C9845 /* MyTableViewCell.h */,
+				DE8FE4A11BAC3899007C9845 /* MyTableViewCell.m */,
+				DE8FE4A31BAE9B81007C9845 /* AppInfo.h */,
+				DE8FE4A41BAE9B81007C9845 /* AppInfo.m */,
 			);
 			path = TableViewSample;
 			sourceTree = "<group>";
@@ -222,6 +237,9 @@
 				DE8FE4801BAC13C0007C9845 /* ViewController.m in Sources */,
 				DE8FE47D1BAC13C0007C9845 /* AppDelegate.m in Sources */,
 				DE8FE47A1BAC13C0007C9845 /* main.m in Sources */,
+				DE8FE4A51BAE9B81007C9845 /* AppInfo.m in Sources */,
+				DE8FE49F1BAC33A5007C9845 /* TableViewController.m in Sources */,
+				DE8FE4A21BAC3899007C9845 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
